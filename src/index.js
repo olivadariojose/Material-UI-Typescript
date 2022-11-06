@@ -4,10 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//IMPORTAMOS EL THEME PROVIDER Y EL THEME QUE CREAMOS
+import { ThemeProvider } from '@mui/system';
+import {theme as tema} from './helpers/materialui/themeMui'
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={tema}>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
 
