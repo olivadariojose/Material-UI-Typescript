@@ -1,5 +1,5 @@
 import { createTheme } from '@mui/material/styles';
-import { amber, deepOrange, grey, blue, deepBlue } from '@mui/material/colors';
+import { amber, deepOrange, grey, blue } from '@mui/material/colors';
 
 const mode = 'dark'
 
